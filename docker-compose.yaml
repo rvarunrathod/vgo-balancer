@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  vgo-balancer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./config.yaml:/root/config.yaml 
+    networks:
+      - vgo-network
+
+  sm-server-1:
+    container_name: server-1
+    build: ./tools/simple-server
+    environment:
+      - PORT=8081
+    networks:
+      - vgo-network
+
+  sm-server-2:
+    container_name: server-2
+    build: ./tools/simple-server
+    environment:
+      - PORT=8082
+    networks:
+      - vgo-network
+
+  sm-server-3:
+    container_name: server-3
+    build: ./tools/simple-server
+    environment:
+      - PORT=8083
+    networks:
+      - vgo-network
+
+networks:
+  vgo-network:

@@ -1,0 +1,199 @@
+{"level":"fatal","timestamp":"2025-02-22T23:27:19.620+0530","msg":"failed to load configuration file","error":"open config.yaml: no such file or directory"}
+{"level":"fatal","timestamp":"2025-02-22T23:31:12.060+0530","msg":"failed to load configuration file","error":"open config.yaml: no such file or directory"}
+{"level":"info","timestamp":"2025-02-22T23:35:47.568+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-02-22T23:36:36.351+0530","msg":"configuration file loaded successfully","config":{"Host":"","Port":8080,"Services":[{"Name":"service1","Host":"service1.example.com","Port":8081,"Headers":{"RequestHeaders":{"X-Request-Header":"value1"},"ResponseHeaders":{"X-Response-Header":"value2"},"RemoveRequestHeaders":["X-Remove-Request-Header"],"RemoveResponseHeaders":["X-Remove-Response-Header"]},"Backends":[{"URL":"http://backend1.example.com","Weight":10,"MaxConnection":100},{"URL":"http://backend2.example.com","Weight":20,"MaxConnection":200}],"MaxConnection":500,"RequestTimeout":60000000000,"LBtype":"round_robin","ConnectionPool":{"MaxIdle":10,"MaxOpen":100,"IdleTimeout":30},"HealthCheck":{"Path":"/health","Interval":30000000000,"Timeout":5000000000,"Retries":3}}]}}
+{"level":"info","timestamp":"2025-02-22T23:39:43.120+0530","msg":"configuration file loaded successfully","config":{"Host":"","Port":8080,"Services":[{"Name":"service1","Host":"service1.example.com","Port":8081,"Headers":{"RequestHeaders":{"X-Request-Header":"value1"},"ResponseHeaders":{"X-Response-Header":"value2"},"RemoveRequestHeaders":["X-Remove-Request-Header"],"RemoveResponseHeaders":["X-Remove-Response-Header"]},"Backends":[{"URL":"http://backend1.example.com","Weight":10,"MaxConnection":100},{"URL":"http://backend2.example.com","Weight":20,"MaxConnection":200}],"MaxConnection":500,"RequestTimeout":60000000000,"LBtype":"round_robin","ConnectionPool":{"MaxIdle":10,"MaxOpen":100,"IdleTimeout":30},"HealthCheck":null}]}}
+{"level":"info","timestamp":"2025-02-22T23:40:28.720+0530","msg":"configuration file loaded successfully","config":{"Host":"","Port":8080,"Services":[{"Name":"service1","Host":"service1.example.com","Port":8081,"Headers":{"RequestHeaders":{"X-Request-Header":"value1"},"ResponseHeaders":{"X-Response-Header":"value2"},"RemoveRequestHeaders":["X-Remove-Request-Header"],"RemoveResponseHeaders":["X-Remove-Response-Header"]},"Backends":[{"URL":"http://backend1.example.com","Weight":10,"MaxConnection":100},{"URL":"http://backend2.example.com","Weight":20,"MaxConnection":200}],"MaxConnection":500,"RequestTimeout":60000000000,"LBtype":"round_robin","ConnectionPool":{"MaxIdle":10,"MaxOpen":100,"IdleTimeout":30},"HealthCheck":{"Path":"/health","Interval":30000000000,"Timeout":5000000000,"Retries":3}}]}}
+{"level":"info","timestamp":"2025-02-22T23:41:44.321+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-02-22T23:41:57.526+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-02-22T23:42:04.754+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-02-22T23:43:12.962+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-02-22T23:48:09.887+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-02-22T23:49:14.975+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-02-23T00:24:17.631+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-02-23T00:24:17.632+0530","msg":"Starting the load balancer"}
+{"level":"info","timestamp":"2025-02-23T00:24:19.655+0530","msg":"Load Balancer Shutdown gracefully."}
+{"level":"info","timestamp":"2025-02-23T00:24:19.655+0530","msg":"Load balancer stopped"}
+{"level":"info","timestamp":"2025-02-25T23:09:41.716+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-02-25T23:09:41.717+0530","msg":"Starting Load Balancer","port":8080}
+{"level":"info","timestamp":"2025-02-25T23:09:41.717+0530","msg":"Parsing configuration and registering services"}
+{"level":"info","timestamp":"2025-02-25T23:09:41.717+0530","msg":"Service: service1, registered successfully."}
+{"level":"info","timestamp":"2025-02-25T23:09:41.717+0530","msg":"Starting the server","address":":8080"}
+{"level":"error","timestamp":"2025-02-25T23:10:17.798+0530","msg":"service not found","service":"service1/test"}
+{"level":"error","timestamp":"2025-02-25T23:10:41.781+0530","msg":"service not found","service":"service1/test"}
+{"level":"error","timestamp":"2025-02-25T23:10:42.388+0530","msg":"service not found","service":"service1/test"}
+{"level":"error","timestamp":"2025-02-25T23:10:42.961+0530","msg":"service not found","service":"service1/test"}
+{"level":"info","timestamp":"2025-02-25T23:16:40.756+0530","msg":"Load Balancer Shutdown gracefully."}
+{"level":"info","timestamp":"2025-02-25T23:16:43.810+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-02-25T23:16:43.811+0530","msg":"Starting Load Balancer","port":8080}
+{"level":"info","timestamp":"2025-02-25T23:16:43.811+0530","msg":"Parsing configuration and registering services"}
+{"level":"info","timestamp":"2025-02-25T23:16:43.811+0530","msg":"Service: service1, registered successfully."}
+{"level":"info","timestamp":"2025-02-25T23:16:43.811+0530","msg":"Starting the server","address":":8080"}
+{"level":"error","timestamp":"2025-02-25T23:16:48.060+0530","msg":"service not found","service":"/service1/test"}
+{"level":"info","timestamp":"2025-02-25T23:16:51.198+0530","msg":"Load Balancer Shutdown gracefully."}
+{"level":"info","timestamp":"2025-02-25T23:18:00.468+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-02-25T23:18:00.469+0530","msg":"Starting Load Balancer","port":8080}
+{"level":"info","timestamp":"2025-02-25T23:18:00.469+0530","msg":"Parsing configuration and registering services"}
+{"level":"info","timestamp":"2025-02-25T23:18:00.469+0530","msg":"Service: service1, registered successfully."}
+{"level":"info","timestamp":"2025-02-25T23:18:00.469+0530","msg":"Starting the server","address":":8080"}
+{"level":"info","timestamp":"2025-02-25T23:18:38.876+0530","msg":"Load Balancer Shutdown gracefully."}
+{"level":"info","timestamp":"2025-02-25T23:18:40.863+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-02-25T23:18:40.864+0530","msg":"Starting Load Balancer","port":8080}
+{"level":"info","timestamp":"2025-02-25T23:18:40.864+0530","msg":"Parsing configuration and registering services"}
+{"level":"info","timestamp":"2025-02-25T23:18:40.864+0530","msg":"Service: service1, registered successfully."}
+{"level":"info","timestamp":"2025-02-25T23:18:40.864+0530","msg":"Starting the server","address":":8080"}
+{"level":"info","timestamp":"2025-02-25T23:18:44.036+0530","msg":"Forwarding request to the backend","service":"service1","service":"service1"}
+{"level":"info","timestamp":"2025-02-25T23:18:54.037+0530","msg":"Request forwarded successfully","service":"service1","service":"service1"}
+{"level":"info","timestamp":"2025-02-25T23:19:19.091+0530","msg":"Forwarding request to the backend","service":"service1","service":"service1"}
+{"level":"info","timestamp":"2025-02-25T23:19:20.387+0530","msg":"Forwarding request to the backend","service":"service1","service":"service1"}
+{"level":"info","timestamp":"2025-02-25T23:19:29.093+0530","msg":"Request forwarded successfully","service":"service1","service":"service1"}
+{"level":"info","timestamp":"2025-02-25T23:19:30.388+0530","msg":"Request forwarded successfully","service":"service1","service":"service1"}
+{"level":"info","timestamp":"2025-02-25T23:19:54.554+0530","msg":"Forwarding request to the backend","service":"service1","service":"service1"}
+{"level":"info","timestamp":"2025-02-25T23:19:55.862+0530","msg":"Forwarding request to the backend","service":"service1","service":"service1"}
+{"level":"info","timestamp":"2025-02-25T23:19:57.542+0530","msg":"Forwarding request to the backend","service":"service1","service":"service1"}
+{"level":"info","timestamp":"2025-02-25T23:20:04.555+0530","msg":"Request forwarded successfully","service":"service1","service":"service1"}
+{"level":"info","timestamp":"2025-02-25T23:20:05.863+0530","msg":"Request forwarded successfully","service":"service1","service":"service1"}
+{"level":"info","timestamp":"2025-02-25T23:20:07.543+0530","msg":"Request forwarded successfully","service":"service1","service":"service1"}
+{"level":"info","timestamp":"2025-02-25T23:20:13.688+0530","msg":"Load Balancer Shutdown gracefully."}
+{"level":"info","timestamp":"2025-02-26T00:26:06.980+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-02-26T00:26:06.981+0530","msg":"Starting Load Balancer","port":8080}
+{"level":"info","timestamp":"2025-02-26T00:26:06.981+0530","msg":"Parsing configuration and registering services"}
+{"level":"info","timestamp":"2025-02-26T00:26:06.981+0530","msg":"Service: service1, registered successfully."}
+{"level":"info","timestamp":"2025-02-26T00:26:06.981+0530","msg":"Starting the server","address":":8080"}
+{"level":"info","timestamp":"2025-02-26T00:26:12.076+0530","msg":"Load Balancer Shutdown gracefully."}
+{"level":"info","timestamp":"2025-02-26T00:26:12.076+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://backend2.example.com:8081"}
+{"level":"info","timestamp":"2025-02-26T00:26:12.076+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://backend1.example.com:8081"}
+{"level":"info","timestamp":"2025-03-01T18:26:42.859+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-03-01T18:26:42.860+0530","msg":"Starting Load Balancer","port":8080}
+{"level":"info","timestamp":"2025-03-01T18:26:42.860+0530","msg":"Parsing configuration and registering services"}
+{"level":"info","timestamp":"2025-03-01T18:26:42.860+0530","msg":"Service: service1, registered successfully."}
+{"level":"info","timestamp":"2025-03-01T18:26:42.860+0530","msg":"Starting the server","address":":8080"}
+{"level":"warn","timestamp":"2025-03-01T18:27:12.861+0530","msg":"Unsupported health check type","service":"service1","type":""}
+{"level":"warn","timestamp":"2025-03-01T18:27:13.863+0530","msg":"Unsupported health check type","service":"service1","type":""}
+{"level":"info","timestamp":"2025-03-01T18:27:41.547+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://127.0.0.1:8082"}
+{"level":"info","timestamp":"2025-03-01T18:27:41.547+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://127.0.0.1:8081"}
+{"level":"info","timestamp":"2025-03-01T18:27:41.548+0530","msg":"Load Balancer Shutdown gracefully."}
+{"level":"info","timestamp":"2025-03-01T18:29:19.377+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-03-01T18:29:19.377+0530","msg":"Starting Load Balancer","port":8080}
+{"level":"info","timestamp":"2025-03-01T18:29:19.377+0530","msg":"Parsing configuration and registering services"}
+{"level":"info","timestamp":"2025-03-01T18:29:19.377+0530","msg":"Service: service1, registered successfully."}
+{"level":"info","timestamp":"2025-03-01T18:29:19.377+0530","msg":"Starting the server","address":":8080"}
+{"level":"warn","timestamp":"2025-03-01T18:31:20.389+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://127.0.0.1:8082","error":"Get \"http://127.0.0.1:8082/health\": dial tcp 127.0.0.1:8082: connect: connection refused"}
+{"level":"warn","timestamp":"2025-03-01T18:31:50.391+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://127.0.0.1:8082","error":"Get \"http://127.0.0.1:8082/health\": dial tcp 127.0.0.1:8082: connect: connection refused"}
+{"level":"warn","timestamp":"2025-03-01T18:32:20.392+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://127.0.0.1:8082","error":"Get \"http://127.0.0.1:8082/health\": dial tcp 127.0.0.1:8082: connect: connection refused"}
+{"level":"warn","timestamp":"2025-03-01T18:32:50.395+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://127.0.0.1:8082","error":"Get \"http://127.0.0.1:8082/health\": dial tcp 127.0.0.1:8082: connect: connection refused"}
+{"level":"info","timestamp":"2025-03-01T18:32:53.983+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://127.0.0.1:8082"}
+{"level":"info","timestamp":"2025-03-01T18:32:53.983+0530","msg":"Load Balancer Shutdown gracefully."}
+{"level":"info","timestamp":"2025-03-01T18:32:53.983+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://127.0.0.1:8081"}
+{"level":"info","timestamp":"2025-03-01T18:39:09.776+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-03-01T18:39:09.777+0530","msg":"Starting Load Balancer","port":8080}
+{"level":"info","timestamp":"2025-03-01T18:39:09.777+0530","msg":"Parsing configuration and registering services"}
+{"level":"info","timestamp":"2025-03-01T18:39:09.777+0530","msg":"Service: service1, registered successfully."}
+{"level":"info","timestamp":"2025-03-01T18:39:09.777+0530","msg":"Starting the server","address":":8080"}
+{"level":"warn","timestamp":"2025-03-01T18:39:40.780+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://127.0.0.1:8082","error":"Get \"http://127.0.0.1:8082/health\": dial tcp 127.0.0.1:8082: connect: connection refused"}
+{"level":"warn","timestamp":"2025-03-01T18:39:45.782+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://127.0.0.1:8082","error":"Get \"http://127.0.0.1:8082/health\": dial tcp 127.0.0.1:8082: connect: connection refused"}
+{"level":"warn","timestamp":"2025-03-01T18:39:50.783+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://127.0.0.1:8082","error":"Get \"http://127.0.0.1:8082/health\": dial tcp 127.0.0.1:8082: connect: connection refused"}
+{"level":"warn","timestamp":"2025-03-01T18:39:55.783+0530","msg":"Health check failed after retries","service":"service1","backend":"http://127.0.0.1:8082"}
+{"level":"info","timestamp":"2025-03-01T18:40:54.793+0530","msg":"Load Balancer Shutdown gracefully."}
+{"level":"info","timestamp":"2025-03-01T18:40:54.793+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://127.0.0.1:8081"}
+{"level":"info","timestamp":"2025-03-01T18:43:33.404+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-03-01T18:43:33.404+0530","msg":"Starting Load Balancer","port":8080}
+{"level":"info","timestamp":"2025-03-01T18:43:33.404+0530","msg":"Parsing configuration and registering services"}
+{"level":"info","timestamp":"2025-03-01T18:43:33.404+0530","msg":"Service: service1, registered successfully."}
+{"level":"info","timestamp":"2025-03-01T18:43:33.404+0530","msg":"Starting the server","address":":8080"}
+{"level":"warn","timestamp":"2025-03-01T18:44:04.408+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://127.0.0.1:8082","error":"Get \"http://127.0.0.1:8082/health\": dial tcp 127.0.0.1:8082: connect: connection refused"}
+{"level":"error","timestamp":"2025-03-01T18:45:15.330+0530","msg":"service not found","service":"ping"}
+{"level":"error","timestamp":"2025-03-01T18:45:16.366+0530","msg":"service not found","service":"ping"}
+{"level":"error","timestamp":"2025-03-01T18:45:17.104+0530","msg":"service not found","service":"ping"}
+{"level":"info","timestamp":"2025-03-01T18:51:04.291+0530","msg":"Load Balancer Shutdown gracefully."}
+{"level":"info","timestamp":"2025-03-01T18:51:04.291+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://127.0.0.1:8081"}
+{"level":"info","timestamp":"2025-03-01T18:51:04.291+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://127.0.0.1:8082"}
+{"level":"info","timestamp":"2025-03-01T18:51:06.894+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-03-01T18:51:06.895+0530","msg":"Starting Load Balancer","port":8080}
+{"level":"info","timestamp":"2025-03-01T18:51:06.895+0530","msg":"Parsing configuration and registering services"}
+{"level":"info","timestamp":"2025-03-01T18:51:06.895+0530","msg":"Service: service1, registered successfully."}
+{"level":"info","timestamp":"2025-03-01T18:51:06.895+0530","msg":"Starting the server","address":":8080"}
+{"level":"info","timestamp":"2025-03-01T18:54:09.647+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://127.0.0.1:8082"}
+{"level":"info","timestamp":"2025-03-01T18:54:09.647+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://127.0.0.1:8081"}
+{"level":"info","timestamp":"2025-03-01T18:54:09.647+0530","msg":"Load Balancer Shutdown gracefully."}
+{"level":"info","timestamp":"2025-03-02T12:01:12.931+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-03-02T12:01:12.932+0530","msg":"Starting Load Balancer","port":8080}
+{"level":"info","timestamp":"2025-03-02T12:01:12.932+0530","msg":"Parsing configuration and registering services"}
+{"level":"info","timestamp":"2025-03-02T12:01:12.932+0530","msg":"Service: service1, registered successfully."}
+{"level":"info","timestamp":"2025-03-02T12:01:12.932+0530","msg":"Starting the server","address":":8080"}
+{"level":"warn","timestamp":"2025-03-02T12:01:43.063+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://server-1:8081","error":"Get \"http://server-1:8081/health\": dial tcp: lookup server-1: no such host"}
+{"level":"warn","timestamp":"2025-03-02T12:01:45.026+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://server-2:8082","error":"Get \"http://server-2:8082/health\": dial tcp: lookup server-2: no such host"}
+{"level":"warn","timestamp":"2025-03-02T12:01:45.060+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://server-3:8083","error":"Get \"http://server-3:8083/health\": dial tcp: lookup server-3: no such host"}
+{"level":"warn","timestamp":"2025-03-02T12:02:13.069+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://server-1:8081","error":"Get \"http://server-1:8081/health\": dial tcp: lookup server-1: no such host"}
+{"level":"warn","timestamp":"2025-03-02T12:02:15.033+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://server-2:8082","error":"Get \"http://server-2:8082/health\": dial tcp: lookup server-2: no such host"}
+{"level":"warn","timestamp":"2025-03-02T12:02:15.065+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://server-3:8083","error":"Get \"http://server-3:8083/health\": dial tcp: lookup server-3: no such host"}
+{"level":"warn","timestamp":"2025-03-02T12:02:43.074+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://server-1:8081","error":"Get \"http://server-1:8081/health\": dial tcp: lookup server-1: no such host"}
+{"level":"warn","timestamp":"2025-03-02T12:02:45.037+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://server-2:8082","error":"Get \"http://server-2:8082/health\": dial tcp: lookup server-2: no such host"}
+{"level":"warn","timestamp":"2025-03-02T12:02:45.071+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://server-3:8083","error":"Get \"http://server-3:8083/health\": dial tcp: lookup server-3: no such host"}
+{"level":"warn","timestamp":"2025-03-02T12:03:13.076+0530","msg":"Health check failed after retries","service":"service1","backend":"http://server-1:8081"}
+{"level":"warn","timestamp":"2025-03-02T12:03:15.039+0530","msg":"Health check failed after retries","service":"service1","backend":"http://server-2:8082"}
+{"level":"warn","timestamp":"2025-03-02T12:03:15.072+0530","msg":"Health check failed after retries","service":"service1","backend":"http://server-3:8083"}
+{"level":"info","timestamp":"2025-03-02T12:03:58.201+0530","msg":"Load Balancer Shutdown gracefully."}
+{"level":"info","timestamp":"2025-03-02T12:33:46.938+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-03-02T12:33:46.938+0530","msg":"Starting Load Balancer","port":8080}
+{"level":"info","timestamp":"2025-03-02T12:33:46.938+0530","msg":"Parsing configuration and registering services"}
+{"level":"info","timestamp":"2025-03-02T12:33:46.938+0530","msg":"Service: service1, registered successfully."}
+{"level":"info","timestamp":"2025-03-02T12:33:46.938+0530","msg":"Starting the server","address":":8080"}
+{"level":"warn","timestamp":"2025-03-02T12:34:18.069+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://server-2:8082","error":"Get \"http://server-2:8082/health\": dial tcp: lookup server-2: no such host"}
+{"level":"warn","timestamp":"2025-03-02T12:34:18.081+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://server-1:8081","error":"Get \"http://server-1:8081/health\": dial tcp: lookup server-1: no such host"}
+{"level":"warn","timestamp":"2025-03-02T12:34:20.071+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://server-3:8083","error":"Get \"http://server-3:8083/health\": dial tcp: lookup server-3: no such host"}
+{"level":"info","timestamp":"2025-03-02T12:34:27.318+0530","msg":"Load Balancer Shutdown gracefully."}
+{"level":"info","timestamp":"2025-03-02T12:35:33.673+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-03-02T12:35:33.674+0530","msg":"Starting Load Balancer","port":8080}
+{"level":"info","timestamp":"2025-03-02T12:35:33.674+0530","msg":"Parsing configuration and registering services"}
+{"level":"info","timestamp":"2025-03-02T12:35:33.674+0530","msg":"Service: service1, registered successfully."}
+{"level":"info","timestamp":"2025-03-02T12:35:33.674+0530","msg":"Starting the server","address":":8080"}
+{"level":"warn","timestamp":"2025-03-02T12:36:04.679+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://server-2:8082","error":"Get \"http://server-2:8082/health\": dial tcp: lookup server-2: no such host"}
+{"level":"warn","timestamp":"2025-03-02T12:36:05.681+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://server-3:8083","error":"Get \"http://server-3:8083/health\": dial tcp: lookup server-3: no such host"}
+{"level":"warn","timestamp":"2025-03-02T12:36:34.685+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://server-2:8082","error":"Get \"http://server-2:8082/health\": dial tcp: lookup server-2: no such host"}
+{"level":"warn","timestamp":"2025-03-02T12:36:35.690+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://server-3:8083","error":"Get \"http://server-3:8083/health\": dial tcp: lookup server-3: no such host"}
+{"level":"warn","timestamp":"2025-03-02T12:37:04.691+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://server-2:8082","error":"Get \"http://server-2:8082/health\": dial tcp: lookup server-2: no such host"}
+{"level":"warn","timestamp":"2025-03-02T12:37:05.694+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://server-3:8083","error":"Get \"http://server-3:8083/health\": dial tcp: lookup server-3: no such host"}
+{"level":"info","timestamp":"2025-03-02T12:37:12.663+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://localhost:8081"}
+{"level":"info","timestamp":"2025-03-02T12:37:12.663+0530","msg":"Load Balancer Shutdown gracefully."}
+{"level":"info","timestamp":"2025-03-02T12:37:18.534+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-03-02T12:37:18.534+0530","msg":"Starting Load Balancer","port":8080}
+{"level":"info","timestamp":"2025-03-02T12:37:18.534+0530","msg":"Parsing configuration and registering services"}
+{"level":"info","timestamp":"2025-03-02T12:37:18.534+0530","msg":"Service: service1, registered successfully."}
+{"level":"info","timestamp":"2025-03-02T12:37:18.534+0530","msg":"Starting the server","address":":8080"}
+{"level":"info","timestamp":"2025-03-02T12:37:30.321+0530","msg":"Load Balancer Shutdown gracefully."}
+{"level":"info","timestamp":"2025-03-02T12:37:30.321+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://server-2:8082"}
+{"level":"info","timestamp":"2025-03-02T12:37:30.321+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://server-3:8083"}
+{"level":"info","timestamp":"2025-03-02T12:37:30.321+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://localhost:8081"}
+{"level":"info","timestamp":"2025-03-02T12:37:52.712+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-03-02T12:37:52.713+0530","msg":"Starting Load Balancer","port":8080}
+{"level":"info","timestamp":"2025-03-02T12:37:52.713+0530","msg":"Parsing configuration and registering services"}
+{"level":"info","timestamp":"2025-03-02T12:37:52.713+0530","msg":"Service: service1, registered successfully."}
+{"level":"info","timestamp":"2025-03-02T12:37:52.713+0530","msg":"Starting the server","address":":8080"}
+{"level":"info","timestamp":"2025-03-02T12:38:02.030+0530","msg":"Load Balancer Shutdown gracefully."}
+{"level":"info","timestamp":"2025-03-02T12:38:02.030+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://server-2:8082"}
+{"level":"info","timestamp":"2025-03-02T12:38:02.030+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://server-3:8083"}
+{"level":"info","timestamp":"2025-03-02T12:38:02.030+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://localhost:8081"}
+{"level":"info","timestamp":"2025-03-02T12:38:16.908+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-03-02T12:38:16.909+0530","msg":"Starting Load Balancer","port":8080}
+{"level":"info","timestamp":"2025-03-02T12:38:16.909+0530","msg":"Parsing configuration and registering services"}
+{"level":"info","timestamp":"2025-03-02T12:38:16.909+0530","msg":"Service: service1, registered successfully."}
+{"level":"info","timestamp":"2025-03-02T12:38:16.909+0530","msg":"Starting the server","address":":8080"}
+{"level":"info","timestamp":"2025-03-02T12:40:49.339+0530","msg":"Load Balancer Shutdown gracefully."}
+{"level":"info","timestamp":"2025-03-02T12:40:49.339+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://localhost:8081"}
+{"level":"info","timestamp":"2025-03-02T12:40:51.786+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-03-02T12:40:51.786+0530","msg":"Starting Load Balancer","port":8080}
+{"level":"info","timestamp":"2025-03-02T12:40:51.786+0530","msg":"Parsing configuration and registering services"}
+{"level":"info","timestamp":"2025-03-02T12:40:51.786+0530","msg":"Service: service1, registered successfully."}
+{"level":"info","timestamp":"2025-03-02T12:40:51.786+0530","msg":"Starting the server","address":":8080"}
+{"level":"warn","timestamp":"2025-03-02T12:41:51.791+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://localhost:8081","error":"Get \"http://localhost:8081/health\": dial tcp [::1]:8081: connect: connection refused"}
+{"level":"info","timestamp":"2025-03-02T12:42:56.909+0530","msg":"Health check stopped for the backend","service":"service1","backend":"http://localhost:8081"}
+{"level":"info","timestamp":"2025-03-02T12:42:56.909+0530","msg":"Load Balancer Shutdown gracefully."}
+{"level":"info","timestamp":"2025-03-02T12:42:59.063+0530","msg":"configuration file loaded successfully"}
+{"level":"info","timestamp":"2025-03-02T12:42:59.063+0530","msg":"Starting Load Balancer","port":8080}
+{"level":"info","timestamp":"2025-03-02T12:42:59.063+0530","msg":"Parsing configuration and registering services"}
+{"level":"info","timestamp":"2025-03-02T12:42:59.064+0530","msg":"Service: service1, registered successfully."}
+{"level":"info","timestamp":"2025-03-02T12:42:59.064+0530","msg":"Starting the server","address":":8080"}
+{"level":"warn","timestamp":"2025-03-02T12:43:29.066+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://localhost:8081","error":"Get \"http://localhost:8081/health\": dial tcp [::1]:8081: connect: connection refused"}
+{"level":"warn","timestamp":"2025-03-02T12:43:59.067+0530","msg":"HTTP health check failed for","service":"service1","backend":"http://localhost:8081","error":"Get \"http://localhost:8081/health\": dial tcp [::1]:8081: connect: connection refused"}
+{"level":"info","timestamp":"2025-03-02T12:44:08.812+0530","msg":"Load Balancer Shutdown gracefully."}

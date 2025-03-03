@@ -1,0 +1,42 @@
+port: 8080
+services:
+  - name: "service1"
+    headers:
+      request_headers:
+        "X-Request-Header": "value1"
+      response_headers:
+        "X-Response-Header": "value2"
+      remove_request_headers:
+        - "X-Remove-Request-Header"
+      remove_response_headers:
+        - "X-Remove-Response-Header"
+    backends:
+      - url: "http://server-1:8081"
+        weight: 10
+        max_connection: 100
+        pool:
+          max_idle: 10
+          max_conn: 100
+          idle_timeout: 30
+      - url: "http://server-2:8082"
+        weight: 20
+        max_connection: 200 
+        pool:
+          max_idle: 10
+          max_conn: 100
+          idle_timeout: 30
+      - url: "http://server-3:8083"
+        weight: 30
+        max_connection: 200 
+        pool:
+          max_idle: 10
+          max_conn: 100
+          idle_timeout: 30
+    request_timeout: 60s
+    lb_type: "weighted-round-robin"
+    health_check:
+      endpoint: "/health"
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      health_check_type: http
