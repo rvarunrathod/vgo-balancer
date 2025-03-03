@@ -69,7 +69,7 @@ docker compose up
 A benchmarking script is included in the `tools/benchmark` directory. Run it with:
 
 ```bash
-cd tools/benchmark && go run main.go -url http://localhost:8080 -c 10 -n 1000 -d 10
+cd tools/benchmark && go run main.go -url http://localhost:8080 -c 10 -n 1000 -d 10s
 ```
 
 Available flags:
